@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Prestamos</title>
+    <title>Login Auxiliar</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -28,12 +28,6 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Moderna - v2.0.1
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -51,8 +45,8 @@
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.html">Inicio</a></li>
-                    <li><a href="estudiantes.html">Registro de estudiantes</a></li>
-                    <li><a href="index.html">Cerrar sesión</a></li>
+                    <li><a href="estudiantes.html">Registro estudiantes</a></li>
+                    <li><a href="loginAuxiliar.html">ingreso auxiliares</a></li>
                 </ul>
             </nav>
             <!-- .nav-menu -->
@@ -64,75 +58,24 @@
     <main id="main">
 
         <!-- ======= Blog Section ======= -->
-        <section class="breadcrumbs">
-            <div class="container">
-
-                <div class="d-flex justify-content-between align-items-center">
-                    <h2>Control y seguimiento de lockers</h2>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Blog Section -->
-
-        <!-- ======= Blog Section ======= -->
         <section class="blog" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
             <div class="container">
 
                 <div class="row justify-content-md-center">
 
-                    <div class="col-lg-5">
+                    <div class="row justify-content-md-center">
                         <div class="sidebar">
 
-                            <h3 class="sidebar-title">Ingresa el código del estudiante, selecciona el locker y la franja horaria.</h3>
+                            <h3 class="sidebar-title">Digite los siguientes datos para ingresar a la aplicación LockerUMB.</h3>
                             <div class="">
-                                <form action="">
-                                    <input type="text" class="form-control" placeholder="Código de estudiante">
-
+                                <form action="prestamos.html" method="POST">
+                                    <input type="text" class="form-control" placeholder="Nombre completo">
                                     <br>
-                                    <h4>Selecciona un horario.</h4>
-                                    <p>Fines de semana</p>
-                                    <select class="form-control">
-                                        <option value="1">7am - 9am</option>
-                                        <option value="2">9am - 11am</option>
-                                        <option value="3">11am - 1pm</option>
-                                        <option value="4">1am - 3pm</option>
-                                        <option value="4">3am - 5pm</option>
-                                    </select>
-                                    <p>Diurno</p>
-                                    <select class="form-control">
-                                        <option value="1">6am - 8am</option>
-                                        <option value="2">8am - 10am</option>
-                                        <option value="3">10am - 12pm</option>
-                                        <option value="4">12pm - 2pm</option>
-                                        <option value="4">2am - 4pm</option>
-                                        <option value="4">4am - 6pm</option>
-                                    </select>
-                                    <p>Nocturno</p>
-                                    <select class="form-control">
-                                        <option value="1">6pm - 8m</option>
-                                        <option value="2">8pm - 10pm</option>
-                                    </select>
-                                    <br>
-                                    <h4>Selecciona un locker.</h4>
-                                    <select class="form-control">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                        <option value=13">13</option>
-                                    </select>
+                                    <input type="password" class="form-control" placeholder="Contraseña">
                                     <br>
 
-                                    <button type="submit" class="btn btn-primary btn-block">Registrar préstamo de locker</i></button>
+                                    <button type="submit" class="btn btn-info btn-block">Iniciar sesión</i></button>
+                                    <button type="submit" class="btn btn-info btn-block">Registro nuevo auxiliar</i></button>
                                     <br>
                                 </form>
                             </div>
